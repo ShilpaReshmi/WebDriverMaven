@@ -40,7 +40,7 @@ public class LoginTest
     	//driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/span/span")).click();
     	wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password"))).sendKeys("aarush18nov1!");
     	System.out.println("lets try to commit and push to Git after adding this line");
-    	System.out.println("Added new comments!!!!");
+    	System.out.println("Added new comments!");
     }
     
     @AfterSuite
