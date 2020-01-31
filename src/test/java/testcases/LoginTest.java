@@ -34,11 +34,11 @@ public class LoginTest
 				.pollingEvery(Duration.ofSeconds(2)).withMessage("user defined time out after 10 secs.")
 				.ignoring(NoSuchElementException.class);
 		
-    	driver.findElement(By.id("identifierId")).sendKeys("shilpa.reshmi84@gmail.com");
+    	driver.findElement(By.id("identifierId")).sendKeys("dummu1608@gmail.com");
     	driver.findElement(By.xpath("//*[@id=\"identifierNext\"]/span/span")).click();
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     	//driver.findElement(By.xpath("//*[@id=\"passwordNext\"]/span/span")).click();
-    	wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password"))).sendKeys("aarush18nov1!");
+    	wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("password"))).sendKeys("Gundu123!");
     	System.out.println("lets try to commit and push to Git after adding this line");
     	System.out.println("Added new comments!");
     }
